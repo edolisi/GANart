@@ -1,0 +1,1 @@
+GAN art MSc project repository - Edoardo Lisi

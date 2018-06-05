@@ -31,5 +31,5 @@ def plotGeneratedImages(epoch, examples=49, dim=(7,7), figsize=(7,7)):
     plt.savefig('C:/Users/Edoardo/Desktop/MNICGAN_epoch_%d.png' % epoch)
 
 np.random.seed(1000)
-generator = load_model('cgan_mnist_epoch_200.h5')
+generator = load_model('dcgan_generator_epoch_200.h5')
 plotGeneratedImages(200)
